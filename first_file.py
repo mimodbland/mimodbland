@@ -8,7 +8,7 @@ print('Hola Github desde local cuenta toviddfrei@gmail.com')
 """
 # Notes & Exemples:
 
-+ Crear un directorio en cualquier lugar de nuestro equipo
++ **Crear un directorio en cualquier lugar de nuestro equipo**
 - Acceder al directorio nuevo creado
 - Ejecutar el comando git init
 - Devuelve mensaje del resultado de la ejecucion del comando
@@ -20,12 +20,16 @@ print('Hola Github desde local cuenta toviddfrei@gmail.com')
 - Ejecutar comando git status
 - Devuelve mensaje rama en la que estamos y la situación que tiene
 
++ **Modificar el mensaje del ultimo commit**
+- ejecutar el comando git commit -a --amend
+- Devuelve el editor de texto con el commit para poder modificar el mensaje
 
 # Commands
 
-- git init -- activar git en un directorio
-- ls -la -- listar todos los archivos y directorios
-- git status -- comprobar el estado de git 
+- git init ---> activar git en un directorio
+- ls -la ---> listar todos los archivos y directorios
+- git status ---> comprobar el estado de git 
+- git commit -a --amend ---> modificar  mensaje del ultimo commit 
 """
 
 
